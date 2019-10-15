@@ -1,53 +1,37 @@
+  
+/* 
+* Visualizing-Data-with-Leaflet - CSS Style Sheet 
+*/
+
+/*try */
 body {
   padding: 0;
   margin: 0;
 }
 
+/* Set Map, Body & HTML to 100% of the Screen Size */
 #map,
 body,
 html {
   height: 100%;
 }
 
-.leaflet-popup-content {
-  text-align: center;
-}
-
-/* CSS from the Leaflet-Choropleth documentation */
-.legend {
-  padding: 6px 8px;
-  font: 12px Arial, Helvetica, sans-serif;
-  font-weight: bold;
-  color: #555;
-  background: #fff;
-  background: rgba(255, 255, 255, 0.8);
+/* Set Legend Style */
+.info {
+  padding: 1px 10px;
+  background: #E5E7E9;
   border-radius: 5px;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
 }
 
-.legend ul {
-  padding: 0;
-  margin: 0;
-  clear: both;
-  list-style-type: none;
+.legend {
+  line-height: 25px;
+  color: #000000;
 }
 
-.legend li {
-  display: inline-block;
-  width: 30px;
-  height: 22px;
-}
-
-.legend .min {
-  float: left;
-  padding-bottom: 5px;
-}
-
-.legend .max {
+.legend i {
+  width: 20px;
+  height: 20px;
   float: right;
+  margin-right: 10px;
+  opacity: 0.75;
 }
-
-h1 {
-  text-align: center;
-}
-© 2019 GitHub, Inc.
